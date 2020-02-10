@@ -33,13 +33,14 @@ class App extends React.Component {
   }
 
 
+
   render(){
     return(
     <div className="App">
       <NavBar shirts = {this.state.shirts}/>
       <Switch>
         <Route exact path = '/' component = {Home} />
-        <Route path = '/shirts/:id' render = {this.renderShirts} />
+        <Route path = '/shirts/:id' render = {routerProps => this.renderShirts(routerProps)} />
         <Route component = {NotFound} />
       </Switch>
     </div>

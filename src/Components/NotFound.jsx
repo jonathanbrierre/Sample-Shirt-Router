@@ -3,7 +3,7 @@ import React from 'react'
 const NotFound = () => {
     return (
         <div>
-            nothing to see here
+            Nothing to see here
         </div>
     )
 }

@@ -14,3 +14,13 @@ const Shirt = ({shirt}) => {
 }
 
 export default Shirt
+
+
+
+
+
+
+
+
+
+
